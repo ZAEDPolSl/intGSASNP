@@ -1,0 +1,9 @@
+Package: intGSASNP
+Version: 1.0
+Date: 2021-07-15
+Title: Integration Gene Set Analysis for SNP
+Description: An R package for gene set analysis in genome-wide association studies.
+Author: Agnieszka Macioszek <am.macioszek@gmail.com>
+Maintainer: Joanna Zyla <joanna.zyla@polsl.pl>
+RoxygenNote: 7.1.0
+License: GPL-3
