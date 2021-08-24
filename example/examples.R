@@ -1,6 +1,6 @@
 test <- ORAtest(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = TRUE,
@@ -9,7 +9,7 @@ test <- ORAtest(
 
 test <- CERNOtest(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = FALSE,
@@ -18,7 +18,7 @@ test <- CERNOtest(
 
 test <- MAGENTAtest(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = FALSE,
@@ -29,14 +29,14 @@ test <- MAGENTAtest(
 
 test <- GSEASNPtest(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   adjust.method = "BH",
   permutations = 100
 )
 
 test <- GSEAtest_serial(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = FALSE,
@@ -47,7 +47,7 @@ test <- GSEAtest_serial(
 
 test <- GSEAtest_parallel(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = FALSE,
@@ -58,7 +58,7 @@ test <- GSEAtest_parallel(
 
 test <- iGSEA4GWAStest_serial(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = FALSE,
@@ -68,7 +68,7 @@ test <- iGSEA4GWAStest_serial(
 
 test <- iGSEA4GWAStest_parallel(
   data = example,
-  pathways = KEGGhsa,
+  pathways = PATHWAYS,
   int.method = "min",
   adjust.int = FALSE,
   int.cor.LD = FALSE,
